@@ -2,7 +2,7 @@ import React, { useState, useReducer } from "react";
 import "./Style.css";
 
 const UseReducer = () => {
-    const [mynum, setnum] = useState(0);
+   
     const reducer=(state,action)=>{
         if(action.type==="INCR"){
             state=state+1;
